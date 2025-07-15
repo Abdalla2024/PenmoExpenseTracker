@@ -365,6 +365,30 @@ body {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
+/* Hero Screenshot Styles */
+.hero-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Screenshot Image Styles */
+.screenshot-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Download Screenshot Styles */
+.download-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
 .screenshots-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
