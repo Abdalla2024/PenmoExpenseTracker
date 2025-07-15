@@ -569,11 +569,44 @@ body {
 
 .app-store-btn {
     display: inline-block;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 16px;
     transition: transform 0.3s ease;
+    border: 1px solid #333;
+    min-width: 160px;
 }
 
 .app-store-btn:hover {
     transform: scale(1.05);
+    background: #333;
+}
+
+.app-store-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.app-store-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.app-store-line1 {
+    font-size: 10px;
+    color: #ccc;
+    font-weight: 400;
+}
+
+.app-store-line2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-top: -2px;
 }
 
 
