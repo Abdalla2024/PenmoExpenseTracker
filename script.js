@@ -139,16 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.animationDelay = `${index * 0.2}s`;
     });
 
-    // Add parallax effect to hero section
-    window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const parallaxElements = document.querySelectorAll('.hero-image');
-        
-        parallaxElements.forEach(element => {
-            const speed = 0.5;
-            element.style.transform = `translateY(${scrolled * speed}px)`;
-        });
-    });
+    // Parallax effect removed to prevent hero image from moving during scroll
 
     // Add counter animation for stats (if you want to add animated counters)
     function animateCounter(element, target, duration = 2000) {
