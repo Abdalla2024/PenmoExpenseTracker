@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penmo: Expense Tracker - Your Personal Finance Companion</title>
+    <meta
+      name="description"
+      content="Track your expenses, manage your finances, and achieve your financial goals with Penmo - the ultimate iOS expense tracker app."
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Penmo</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#download">Download</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Take Control of Your <span class="gradient-text">Finances</span>
+          </h1>
+          <p class="hero-description">
+            Penmo is the ultimate iOS expense tracker that helps you monitor
+            your spending, categorize expenses, and achieve your financial goals
+            with ease.
+          </p>
+          <div class="hero-buttons">
+            <a href="#download" class="btn btn-primary">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L12 15M12 15L8 11M12 15L16 11"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M2 17L2 19C2 20.1046 2.89543 21 4 21L20 21C21.1046 21 22 20.1046 22 19L22 17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Download for iOS
+            </a>
+            <a href="#features" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="phone-mockup">
+            <div class="phone-screen">
+              <div class="app-preview">
+                <div class="status-bar">
+                  <div class="time">9:41</div>
+                  <div class="indicators">
+                    <span class="signal"></span>
+                    <span class="wifi"></span>
+                    <span class="battery"></span>
+                  </div>
+                </div>
+                <div class="app-content">
+                  <h3>Welcome to Penmo</h3>
+                  <div class="balance-card">
+                    <p>Current Balance</p>
+                    <h2>$2,547.83</h2>
+                  </div>
+                  <div class="expense-list">
+                    <div class="expense-item">
+                      <div class="expense-icon food"></div>
+                      <div class="expense-details">
+                        <p>Starbucks Coffee</p>
+                        <span>Today</span>
+                      </div>
+                      <span class="amount">-$4.50</span>
+                    </div>
+                    <div class="expense-item">
+                      <div class="expense-icon transport"></div>
+                      <div class="expense-details">
+                        <p>Uber Ride</p>
+                        <span>Yesterday</span>
+                      </div>
+                      <span class="amount">-$12.30</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Powerful Features for Smart Financial Management</h2>
+          <p>
+            Everything you need to take control of your finances in one
+            beautifully designed app
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2V22M17 5H9.5C8.11929 5 7 6.11929 7 7.5C7 8.88071 8.11929 10 9.5 10H14.5C15.8807 10 17 11.1193 17 12.5C17 13.8807 15.8807 15 14.5 15H7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Expense Tracking</h3>
+            <p>
+              Easily record and categorize your expenses with our intuitive
+              interface. Track every penny and stay on top of your spending
+              habits.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 3V21H21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 9L13 5L17 9L21 7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Visual Analytics</h3>
+            <p>
+              Beautiful charts and graphs help you understand your spending
+              patterns and identify areas for improvement.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 7H22L20 5L18 7H21V17C21 17.5523 20.5523 18 20 18H4C3.44772 18 3 17.5523 3 17V7H6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 7V5C8 3.89543 8.89543 3 10 3H14C15.1046 3 16 3.89543 16 5V7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Category Management</h3>
+            <p>
+              Organize your expenses with customizable categories. Create your
+              own categories or use our predefined ones.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 7V12L15 15"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Monthly Reports</h3>
+            <p>
+              Get detailed monthly and weekly reports to track your financial
+              progress and make informed decisions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 6V12L16 14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Real-time Sync</h3>
+            <p>
+              Your data is synchronized across all your devices, ensuring you
+              always have access to your latest financial information.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 12L11 14L15 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>Secure & Private</h3>
+            <p>
+              Your financial data is protected with end-to-end encryption and
+              stored securely on your device.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+      <div class="container">
+        <div class="section-header">
+          <h2>See Penmo in Action</h2>
+          <p>
+            Beautiful, intuitive design that makes managing your finances a
+            pleasure
+          </p>
+        </div>
+        <div class="screenshots-grid">
+          <div class="screenshot-card">
+            <div class="screenshot-phone">
+              <div class="screenshot-content dashboard">
+                <div class="mock-header">Dashboard</div>
+                <div class="mock-balance">$3,247.50</div>
+                <div class="mock-chart"></div>
+                <div class="mock-transactions">
+                  <div class="mock-transaction"></div>
+                  <div class="mock-transaction"></div>
+                  <div class="mock-transaction"></div>
+                </div>
+              </div>
+            </div>
+            <h3>Dashboard Overview</h3>
+            <p>Get a quick overview of your financial status at a glance</p>
+          </div>
+          <div class="screenshot-card">
+            <div class="screenshot-phone">
+              <div class="screenshot-content expenses">
+                <div class="mock-header">Add Expense</div>
+                <div class="mock-form">
+                  <div class="mock-input"></div>
+                  <div class="mock-input"></div>
+                  <div class="mock-categories">
+                    <div class="mock-category food"></div>
+                    <div class="mock-category transport"></div>
+                    <div class="mock-category shopping"></div>
+                    <div class="mock-category entertainment"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Easy Expense Entry</h3>
+            <p>Add expenses quickly with our streamlined interface</p>
+          </div>
+          <div class="screenshot-card">
+            <div class="screenshot-phone">
+              <div class="screenshot-content analytics">
+                <div class="mock-header">Analytics</div>
+                <div class="mock-pie-chart"></div>
+                <div class="mock-stats">
+                  <div class="mock-stat"></div>
+                  <div class="mock-stat"></div>
+                  <div class="mock-stat"></div>
+                </div>
+              </div>
+            </div>
+            <h3>Detailed Analytics</h3>
+            <p>Understand your spending patterns with detailed charts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+      <div class="container">
+        <div class="download-content">
+          <div class="download-text">
+            <h2>Ready to Take Control of Your Finances?</h2>
+            <p>
+              Join thousands of users who have already transformed their
+              financial habits with Penmo. Download now and start your journey
+              to financial freedom.
+            </p>
+            <div class="download-buttons">
+              <a href="#" class="app-store-btn">
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTIwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiByeD0iNCIgZmlsbD0iIzAwMCIvPgo8dGV4dCB4PSI2MCIgeT0iMjQiIGZpbGw9IndoaXRlIiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iMTQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkRvd25sb2FkIG9uIHRoZSBBcHAgU3RvcmU8L3RleHQ+Cjwvc3ZnPgo="
+                  alt="Download on the App Store"
+                />
+              </a>
+              <div class="coming-soon">
+                <span>Coming Soon to the App Store</span>
+              </div>
+            </div>
+            <div class="download-features">
+              <div class="download-feature">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>Free to Download</span>
+              </div>
+              <div class="download-feature">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>No Ads</span>
+              </div>
+              <div class="download-feature">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 12L11 14L15 10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>Privacy First</span>
+              </div>
+            </div>
+          </div>
+          <div class="download-image">
+            <div class="phone-mockup-large">
+              <div class="phone-screen-large">
+                <div class="app-preview-large">
+                  <div class="status-bar">
+                    <div class="time">9:41</div>
+                    <div class="indicators">
+                      <span class="signal"></span>
+                      <span class="wifi"></span>
+                      <span class="battery"></span>
+                    </div>
+                  </div>
+                  <div class="large-app-content">
+                    <h3>Monthly Summary</h3>
+                    <div class="summary-stats">
+                      <div class="stat-card">
+                        <span class="stat-label">Income</span>
+                        <span class="stat-value positive">$4,200</span>
+                      </div>
+                      <div class="stat-card">
+                        <span class="stat-label">Expenses</span>
+                        <span class="stat-value negative">$2,847</span>
+                      </div>
+                      <div class="stat-card">
+                        <span class="stat-label">Savings</span>
+                        <span class="stat-value positive">$1,353</span>
+                      </div>
+                    </div>
+                    <div class="chart-placeholder"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Penmo</h3>
+            <p>
+              Your trusted companion for financial management and expense
+              tracking.
+            </p>
+          </div>
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download">Download</a></li>
+              </ul>
+            </div>
+            <div class="link-group">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="mailto:support@penmo.app">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Penmo. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
