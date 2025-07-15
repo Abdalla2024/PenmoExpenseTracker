@@ -40,7 +40,7 @@ body {
 }
 
 .nav-logo h2 {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #219ebc 0%, #023047 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -62,7 +62,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #667eea;
+    color: #219ebc;
 }
 
 .hamburger {
@@ -84,7 +84,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #8ecae6 0%, #219ebc 100%);
     padding-top: 80px;
 }
 
@@ -103,10 +103,11 @@ body {
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1.5rem;
+    color: white;
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ffb703 0%, #fb8500 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -114,7 +115,7 @@ body {
 
 .hero-description {
     font-size: 1.2rem;
-    color: #666;
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 2rem;
     line-height: 1.6;
 }
@@ -140,14 +141,14 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ffb703 0%, #fb8500 100%);
     color: white;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 183, 3, 0.3);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 15px 40px rgba(255, 183, 3, 0.4);
 }
 
 .btn-secondary {
@@ -157,8 +158,8 @@ body {
 }
 
 .btn-secondary:hover {
-    border-color: #667eea;
-    color: #667eea;
+    border-color: #219ebc;
+    color: #219ebc;
     transform: translateY(-2px);
 }
 
@@ -221,7 +222,7 @@ body {
 }
 
 .balance-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #219ebc 0%, #023047 100%);
     color: white;
     padding: 20px;
     border-radius: 16px;
@@ -332,7 +333,7 @@ body {
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    border-color: #667eea;
+    border-color: #219ebc;
 }
 
 .feature-icon {
@@ -341,7 +342,7 @@ body {
     justify-content: center;
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #219ebc 0%, #023047 100%);
     border-radius: 20px;
     margin-bottom: 1.5rem;
     color: white;
@@ -362,7 +363,7 @@ body {
 /* Screenshots Section */
 .screenshots {
     padding: 100px 0;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #8ecae6 0%, #219ebc 100%);
 }
 
 /* Hero Screenshot Styles */
@@ -420,7 +421,7 @@ body {
 }
 
 .mock-header {
-    background: #667eea;
+    background: #023047;
     color: white;
     padding: 8px;
     border-radius: 8px;
@@ -431,7 +432,7 @@ body {
 }
 
 .mock-balance {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #219ebc 0%, #023047 100%);
     color: white;
     padding: 15px;
     border-radius: 12px;
@@ -443,7 +444,7 @@ body {
 
 .mock-chart {
     height: 80px;
-    background: linear-gradient(90deg, #667eea 25%, #764ba2 50%, #667eea 75%);
+    background: linear-gradient(90deg, #219ebc 25%, #023047 50%, #219ebc 75%);
     border-radius: 8px;
     margin-bottom: 15px;
     opacity: 0.7;
@@ -507,7 +508,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: conic-gradient(#667eea 0deg 120deg, #764ba2 120deg 240deg, #ff9a9e 240deg 360deg);
+    background: conic-gradient(#219ebc 0deg 120deg, #023047 120deg 240deg, #ffb703 240deg 360deg);
     margin: 0 auto 15px;
 }
 
@@ -528,11 +529,11 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: white;
 }
 
 .screenshot-card p {
-    color: #666;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Download Section */
@@ -598,7 +599,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #667eea;
+    color: #219ebc;
     font-weight: 500;
 }
 
@@ -671,14 +672,14 @@ body {
 
 .chart-placeholder {
     height: 120px;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%);
+    background: linear-gradient(90deg, #219ebc 0%, #023047 50%, #219ebc 100%);
     border-radius: 12px;
     opacity: 0.8;
 }
 
 /* Footer */
 .footer {
-    background: #1a1a1a;
+    background: #023047;
     color: white;
     padding: 60px 0 20px;
 }
@@ -693,7 +694,7 @@ body {
 .footer-brand h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8ecae6 0%, #219ebc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -730,7 +731,7 @@ body {
 }
 
 .link-group ul li a:hover {
-    color: #667eea;
+    color: #8ecae6;
 }
 
 .footer-bottom {
@@ -923,6 +924,6 @@ html {
 /* Focus states for accessibility */
 .btn:focus,
 .nav-menu a:focus {
-    outline: 2px solid #667eea;
+    outline: 2px solid #219ebc;
     outline-offset: 2px;
 }

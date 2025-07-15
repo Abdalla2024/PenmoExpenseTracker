@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
             bottom: 30px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(102, 126, 234, 0.9);
+            background: rgba(33, 158, 188, 0.9);
             color: white;
             padding: 12px;
             border-radius: 50%;
