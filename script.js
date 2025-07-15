@@ -111,19 +111,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return re.test(email);
     }
 
-    // Loading animation for app store button
+    // App store button ready for real link
     const appStoreBtn = document.querySelector('.app-store-btn');
     if (appStoreBtn) {
+        // When you have your App Store link, replace the href="#" with your actual URL
+        // and remove the preventDefault() below
         appStoreBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            
-            // Create a temporary loading state
-            const originalText = this.innerHTML;
-            this.innerHTML = '<span style="opacity: 0.7;">Coming Soon...</span>';
-            
-            setTimeout(() => {
-                this.innerHTML = originalText;
-            }, 2000);
+            // Placeholder - replace with actual App Store link when ready
         });
     }
 

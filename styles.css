@@ -576,18 +576,7 @@ body {
     transform: scale(1.05);
 }
 
-.coming-soon {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #f8f9fa;
-    border-radius: 8px;
-    display: inline-block;
-}
 
-.coming-soon span {
-    color: #666;
-    font-weight: 500;
-}
 
 .download-features {
     display: flex;
