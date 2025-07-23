@@ -111,15 +111,10 @@ document.addEventListener('DOMContentLoaded', function() {
         return re.test(email);
     }
 
-    // App store button ready for real link
+    // App store button - now links to actual App Store
     const appStoreBtn = document.querySelector('.app-store-btn');
     if (appStoreBtn) {
-        // When you have your App Store link, replace the href="#" with your actual URL
-        // and remove the preventDefault() below
-        appStoreBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Placeholder - replace with actual App Store link when ready
-        });
+        // App Store link is now active in HTML, no need for JavaScript override
     }
 
     // Feature card stagger animation
